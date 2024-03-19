@@ -1,0 +1,5 @@
+<!ELEMENT events (event+)>
+<!ELEMENT event (title, date, description)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

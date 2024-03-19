@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE events SYSTEM "events.dtd">
+<events>
+    <event>
+        <title>Event 1</title>
+        <date>2023-10-15</date>
+        <description>Department annual Quiz.</description>
+    </event>
+    <event>
+        <title>Event 2</title>
+        <date>2023-11-15</date>
+        <description>Placement Pre Talks.</description>
+    </event>
+</events>

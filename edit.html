@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Event</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CS Department Event Management System - Edit Event</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <div id="event-form">
+                <h2>Edit Event</h2>
+                <form id="edit-event-form">
+                    <label for="event-id">Event ID:</label><br>
+                    <input type="number" id="event-id" required>
+                    <button type="button" id="load-event-button">Enter</button><br><br>
+
+                    <!-- Edit options for each field -->
+                    <label for="event-date">Event Date:</label><br>
+                    <input type="date" id="event-date"><br><br>
+
+                    <label for="event-name">Event Name:</label><br>
+                    <input type="text" id="event-name"><br><br>
+
+                    <label for="event-organizer">Event Organizer:</label><br>
+                    <input type="text" id="event-organizer"><br><br>
+
+                    <label for="event-guest">Event Guest:</label><br>
+                    <input type="text" id="event-guest"><br><br>
+
+                    <label for="target-audience">Target Audience:</label><br>
+                    <input type="text" id="target-audience"><br><br>
+
+                    <label>Place of Event:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="dept-hall" name="event-place" value="Dept Hall">
+                        <label for="dept-hall">Dept Hall</label>
+
+                        <input type="radio" id="ccf" name="event-place" value="CCF">
+                        <label for="ccf">CCF</label>
+
+                        <input type="radio" id="seminar-hall" name="event-place" value="Seminar Hall">
+                        <label for="seminar-hall">Seminar Hall</label>
+
+                        <input type="radio" id="main-auditorium" name="event-place" value="Main Auditorium">
+                        <label for="main-auditorium">Main Auditorium</label>
+                    </div>
+
+                    <!-- Save edited event button -->
+                    <button type="button" id="save-edited-event-button" disabled>Save Edited Event</button>
+                </form>
+            </div>
+
+            <!-- Display edited event details on the right side -->
+            <div id="edited-event-details" class="event-details">
+                <h2>Edited Event Details</h2>
+                <p><strong>Event ID:</strong> <span id="edited-event-id"></span></p>
+                <p><strong>Event Date:</strong> <span id="edited-event-date"></span></p>
+                <p><strong>Event Name:</strong> <span id="edited-event-name"></span></p>
+                <p><strong>Event Organizer:</strong> <span id="edited-event-organizer"></span></p>
+                <p><strong>Event Guest:</strong> <span id="edited-event-guest"></span></p>
+                <p><strong>Target Audience:</strong> <span id="edited-target-audience"></span></p>
+                <p><strong>Place of Event:</strong> <span id="edited-event-place"></span></p>
+            </div>
+        </div>
+    </main>
+    <script src="edit_js.js"></script>
+</body>
+</html>

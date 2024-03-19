@@ -1,0 +1,88 @@
+/* CSS styles for your web page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#event-list {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.event-item {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.event-item h2 {
+    margin-top: 0;
+}
+
+.form-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Add more styles as needed */
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-details {
+    flex: 1;
+    margin-left: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.event-details h2 {
+    margin-top: 0;
+}
+
+#event-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#event-table th,
+#event-table td {
+    padding: 10px; /* Adjust the padding to your preference for column spacing */
+    text-align: left;
+    border: 1px solid #ddd;
+}
